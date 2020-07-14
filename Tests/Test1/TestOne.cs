@@ -83,7 +83,7 @@ namespace CodeTest
 
             Service.Delete(id);
 
-            ConsoleLog.LogSub("Test 1 End:Delete Record");
+            ConsoleLog.LogSub("Test 1 End:Delete Recordasd");
         }
     }
 }
