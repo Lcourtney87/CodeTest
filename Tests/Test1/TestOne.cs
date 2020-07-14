@@ -18,7 +18,7 @@ namespace CodeTest
 
             Customer customer = new Customer()
             {
-                Id = 10,
+                Id = 1,
                 Address = "Somewhere over the rainbow",
                 Name = "Jimmy",
                 Phonenumber = "0000001",
@@ -29,7 +29,6 @@ namespace CodeTest
 
             Customer newCustomer = this.GetCustomer(newID);
 
-            newCustomer.Phonenumber = "000002";
             this.UpdateCustomer(newCustomer);
 
             this.DeleteCustomer(newID);
@@ -45,9 +44,10 @@ namespace CodeTest
             ConsoleLog.LogSub("Test 1:Create Record");
 
             int newID = Service.Add(customer);
-            return newID;
+            ConsoleLog.LogResult($"Customer Added, ID:{newID}");
 
             ConsoleLog.LogSub("Test 1 End:Create Record");
+            return newID;
         }
 
         /// <summary>
@@ -57,9 +57,11 @@ namespace CodeTest
         {
             ConsoleLog.LogSub("Test 1: Get Record");
 
-            return Service.Get(id);
+            Customer returnVal = Service.Get(id);
+            ConsoleLog.LogResult($"Customer returned, Name:{returnVal.Name}");
 
             ConsoleLog.LogSub("Test 1 End: Get Record");
+            return returnVal;
         }
 
         /// <summary>
@@ -69,7 +71,11 @@ namespace CodeTest
         {
             ConsoleLog.LogSub("Test 1:Update Record");
 
+            ConsoleLog.LogResult($"Original name:{customer.Name}");
+            customer.Name = "schoolbus";
             Service.Update(customer);
+            Customer updatedCustomer = Service.Get(customer.Id);
+            ConsoleLog.LogResult($"New Name:{updatedCustomer.Name}");
 
             ConsoleLog.LogSub("Test 1 End:Update Record");
         }
@@ -81,7 +87,11 @@ namespace CodeTest
         {
             ConsoleLog.LogSub("Test 1:Delete Record");
 
+            int orginalCount = Service.GetAll().Count;
+            ConsoleLog.LogResult($"Original count:{orginalCount}");
             Service.Delete(id);
+            int NewCount = Service.GetAll().Count;
+            ConsoleLog.LogResult($"New count:{NewCount}");
 
             ConsoleLog.LogSub("Test 1 End:Delete Recordasd");
         }

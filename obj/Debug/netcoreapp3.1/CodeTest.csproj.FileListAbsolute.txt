@@ -55,7 +55,6 @@ E:\CodeTest\CodeTest\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.pdb
 E:\CodeTest\CodeTest\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.csprojAssemblyReference.cache
 C:\Projects\test\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.AssemblyInfoInputs.cache
 C:\Projects\test\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.AssemblyInfo.cs
-C:\Projects\test\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.csproj.CoreCompileInputs.cache
 C:\Projects\test\CodeTest\bin\Debug\netcoreapp3.1\CodeTest.exe
 C:\Projects\test\CodeTest\bin\Debug\netcoreapp3.1\Tests\Test4\Test4Json.txt
 C:\Projects\test\CodeTest\bin\Debug\netcoreapp3.1\CodeTest.deps.json
@@ -164,3 +163,6 @@ E:\CodeTest\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.AssemblyInfo.cs
 E:\CodeTest\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.csproj.CopyComplete
 E:\CodeTest\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.dll
 E:\CodeTest\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.pdb
+C:\Projects\test\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.csprojAssemblyReference.cache
+C:\Projects\test\CodeTest\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projects\test\CodeTest\obj\Debug\netcoreapp3.1\CodeTest.csproj.CoreCompileInputs.cache

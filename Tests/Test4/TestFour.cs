@@ -1,8 +1,12 @@
-﻿using System;
+﻿using CodeTest.Models;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace CodeTest
 {
@@ -33,6 +37,11 @@ namespace CodeTest
 
             //TODO: Json string should be populated, now do the deserialising.
 
+            List<ExampleObject> examples = JsonConvert.DeserializeObject<List<ExampleObject>>(jsonText);
+            foreach(ExampleObject obj in examples.Where(p=> p != null && p.SearchReference == 1))
+            {
+                ConsoleLog.LogResult($"{obj.Id}");
+            }
 
             ConsoleLog.LogSub("Test 4 End: Convert Json");            
         }
