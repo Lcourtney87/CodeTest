@@ -1,0 +1,10 @@
+﻿*********************
+*******Test 3********
+*********************
+
+- Data Manipulation -
+
+This test covers some data manipulation  - such as pulling values out of an unstructured string and converting a JSON object into a usable object in C#.
+
+Test Steps:
+1) Using the string provided, strip the numbers and then print them in order, then printing the non numeric characters as they are.
