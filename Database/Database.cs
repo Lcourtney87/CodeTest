@@ -8,6 +8,7 @@ namespace CodeTest.Database
     public class Database : DbContext
     {
         public DbSet<Models.ExampleObject> Examples { get; set; }
+        public DbSet<Models.Customer> Customers { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)

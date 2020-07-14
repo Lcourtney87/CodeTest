@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CodeTest\\CodeTest\\CodeTest.csproj": {}
+    "C:\\Projects\\test\\CodeTest\\CodeTest.csproj": {}
   },
   "projects": {
-    "E:\\CodeTest\\CodeTest\\CodeTest.csproj": {
+    "C:\\Projects\\test\\CodeTest\\CodeTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CodeTest\\CodeTest\\CodeTest.csproj",
+        "projectUniqueName": "C:\\Projects\\test\\CodeTest\\CodeTest.csproj",
         "projectName": "CodeTest",
-        "projectPath": "E:\\CodeTest\\CodeTest\\CodeTest.csproj",
-        "packagesPath": "C:\\Users\\lucas.courtney\\.nuget\\packages\\",
-        "outputPath": "E:\\CodeTest\\CodeTest\\obj\\",
+        "projectPath": "C:\\Projects\\test\\CodeTest\\CodeTest.csproj",
+        "packagesPath": "C:\\Users\\adrian.banham\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\test\\CodeTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\lucas.courtney\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\adrian.banham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
