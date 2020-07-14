@@ -17,7 +17,7 @@ namespace CodeTest
             this.GetCustomer();
             this.UpdateCustomer();
             this.DeleteCustomer();
-
+             
             ConsoleLog.LogHeader("Test 1 End");
         }
 
