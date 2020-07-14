@@ -9,6 +9,7 @@ namespace CodeTest
         public TestThree()
         {
             ConsoleLog.LogHeader("Test 3 Begin");
+
             this.ParseString();
 
             ConsoleLog.LogHeader("Test 3 End");
@@ -20,9 +21,12 @@ namespace CodeTest
         /// </summary>
         public void ParseString()
         {
-            ConsoleLog.LogSub("Test 3: Parse String");
-
             string value = "s2om74et5h9i3n68g1";
+
+            ConsoleLog.LogSub("Test 3: Parse String");            
+
+            //TODO: Strip the numeric characters from the string, put them in order, print the result.
+            //TODO: Strip the non-numeric characters from the string, print the result.
 
             ConsoleLog.LogSub("Test 3 End: Parse String");
         }

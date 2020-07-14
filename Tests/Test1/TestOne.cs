@@ -40,7 +40,7 @@ namespace CodeTest
         {
             ConsoleLog.LogSub("Test 1: Get Record");
 
-            // TODO: Get Customer
+            // TODO: Get Customer from the database and log their name.
 
             ConsoleLog.LogSub("Test 1 End: Get Record");
         }
@@ -52,7 +52,7 @@ namespace CodeTest
         {
             ConsoleLog.LogSub("Test 1:Update Record");
 
-            // TODO: Update Customer
+            // TODO: Update Customer. Log name before update, regrab the record from the database, then log the result.
 
             ConsoleLog.LogSub("Test 1 End:Update Record");
         }
@@ -64,7 +64,7 @@ namespace CodeTest
         {
             ConsoleLog.LogSub("Test 1:Delete Record");
 
-            // TODO: Delete Customer
+            // TODO: Delete the customer, get all the records from the database and print the count of records.
 
             ConsoleLog.LogSub("Test 1 End:Delete Record");
         }

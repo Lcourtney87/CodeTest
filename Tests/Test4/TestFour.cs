@@ -31,7 +31,9 @@ namespace CodeTest
             jsonText = System.IO.File.ReadAllText(path);
             #endregion
 
-            //TODO: Json string should be populated, now do the deserialising.
+            // TODO: Deserialise the JSON into a List<ExampleObject>
+            // TODO: Print the count of the List<ExampleObject>
+            // TODO: Print the Names of all the ExampleObjects with the SearchReference of 1.
 
 
             ConsoleLog.LogSub("Test 4 End: Convert Json");            

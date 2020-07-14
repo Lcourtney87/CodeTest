@@ -8,7 +8,7 @@ Alot of work deals with communication between servers and webpages, as such JSON
 
 Test Steps:
 1) The JSON string should load in automatically for you
-2) Parse the JSON string into a List<ExampleObject>
+2) Parse the JSON string into a List<ExampleObject> and print the count of the list.
 3) Find all the objects with a SearchReference of 1 and print them to screen.
 
 Note:
